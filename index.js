@@ -2,7 +2,8 @@ const path = require('path');
 const express = require('express');
 const multer  = require('multer');
 const { check, checkSchema, validationResult } = require('express-validator');
-const tractors = require('./Model/tractors');
+const tractors = require('./Model/Tractor');
+
 
 const app = express();
 const upload = multer();
